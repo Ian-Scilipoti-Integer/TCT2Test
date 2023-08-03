@@ -1,0 +1,57 @@
+
+
+.quizButton {
+    background-color: rgb(39, 140, 255);
+    border:none;
+    border-radius: 10px;
+    padding:15px 40px;
+    margin:20px;
+    font-size: 150%;
+    color:white;
+    width: min(50%, 500px);
+    font-family: "AleckMedium";
+}
+
+@font-face {
+    font-family: "AleckBlack";
+    src: url('../fonts/ATTAleckSans-Black.ttf') format('truetype');
+  }
+  
+@font-face {
+    font-family: "AleckMedium";
+    src: url('../fonts/ATTAleckSans-Medium.ttf') format('truetype');
+}
+html, body {margin: 0; height: 100%; overflow-x: hidden}
+
+
+.dealList {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow-x: scroll;
+    width:100vw;
+}
+
+.tileContainer {
+    /* background-color: red; */
+    width:300px;
+    height:320px;
+    margin: 20px 0px;
+    flex:none;
+    text-align: center;
+    overflow-y:hidden;
+}
+
+.blueBG {
+    background-color: blue;
+    width:100vw;
+    height:100vh;
+    pointer-events: none;
+    position: fixed;
+    left:0px;
+    z-index: -5;
+}
+
+a {
+    margin:20px;
+}
